@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './nav.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen, AiOutlineMail} from 'react-icons/ai'
 import {MdWorkOutline, MdOutlineDraw, MdPeopleOutline} from 'react-icons/md'
@@ -20,7 +20,7 @@ const Nav = () => {
       <a href="#portfolio" className={navActive === '#portfolio'? 'active': ''} onClick={() => setNavActive('#portfolio')}><AiOutlineFolderOpen/></a>
 
       <a href="#reviews" className={navActive === '#reviews'? 'active': ''} onClick={() => setNavActive('#reviews')}><MdPeopleOutline/></a>
-      
+
       <a href="#contact" className={navActive === '#contact'? 'active': ''} onClick={() => setNavActive('#contact')}><AiOutlineMail/></a>
     </nav>
   )

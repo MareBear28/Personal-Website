@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding: 10rem;
     overflow: hidden;
 }
 
@@ -59,4 +59,24 @@ header{
     font-weight: 300;
     font-size: 0.9rem;
 
+}
+
+/* ------------MEDIA QUERIES (MEDIUM DEVICES - aka tablets)------------*/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+        padding: 8rem;
+    }
+}
+
+/*------------MEDIA QUERIES (SMALL DEVICES -aka mobile phones)------------  */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        padding: 8rem;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
 }
