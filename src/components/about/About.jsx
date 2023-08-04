@@ -42,8 +42,10 @@ const About = () => {
           <p>
               I am a first-generation Filipino-American. I attended California State University of Long Beach for college and graduated with a Bachelors of Science in Computer Science. Some hobbies that I have include drawing anime characters, playing video games, and collecting Pokemon cards. I am excited to obtain an entry-level position to gain a step forward into my career while being able to learn new things along the way.
             </p>
-
-            <a href="#contact" className='btn btn-primary'>Contact Me</a>
+            <div className="buttons">
+               <a href="#contact" className='btn btn-primary'>Contact Me</a>
+              <a href="#portfolio" className='btn'>View My Projects</a>
+            </div>
         </div>
       </div>
 
