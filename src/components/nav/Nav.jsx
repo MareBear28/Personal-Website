@@ -15,11 +15,11 @@ const Nav = () => {
       
       <a href="#experience" className={navActive === '#experience'? 'active': ''} onClick={() => setNavActive('#experience')}><MdWorkOutline/></a>
 
-      <a href="#commissions" className={navActive === '#commissions'? 'active': ''} onClick={() => setNavActive('#commissions')}><MdOutlineDraw/></a>
+      {/* <a href="#commissions" className={navActive === '#commissions'? 'active': ''} onClick={() => setNavActive('#commissions')}><MdOutlineDraw/></a> */}
 
       <a href="#portfolio" className={navActive === '#portfolio'? 'active': ''} onClick={() => setNavActive('#portfolio')}><AiOutlineFolderOpen/></a>
 
-      <a href="#reviews" className={navActive === '#reviews'? 'active': ''} onClick={() => setNavActive('#reviews')}><MdPeopleOutline/></a>
+      {/* <a href="#reviews" className={navActive === '#reviews'? 'active': ''} onClick={() => setNavActive('#reviews')}><MdPeopleOutline/></a> */}
 
       <a href="#contact" className={navActive === '#contact'? 'active': ''} onClick={() => setNavActive('#contact')}><AiOutlineMail/></a>
     </nav>
